@@ -7,7 +7,6 @@ export enum Choice {
     ROCK, PAPER, SCISSORS
 }
 
-// X  lose, Y  draw, and Z  win
 export function parseGame(input: string): Game {
     return {opponent: parseChoice(input.charAt(0)), player: parseChoice(input.charAt(2))};
 }
