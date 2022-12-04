@@ -4,12 +4,12 @@ import {solveEx3A} from "./ex3";
 
 describe('exercise 3', () => {
     test('test A', () => {
-        const rounds = readTestInput("/ex3").split(/\r?\n/);
-        expect(solveEx3A(rounds)).toBe(157);
+        const backpacks = readTestInput("/ex3").split(/\r?\n/);
+        expect(solveEx3A(backpacks)).toBe(157);
     });
 
     test('solve A', () => {
-        const rounds = readInput("/ex3").split(/\r?\n/);
-        expect(solveEx3A(rounds)).toBe(7674);
+        const backpacks = readInput("/ex3").split(/\r?\n/);
+        expect(solveEx3A(backpacks)).toBe(7674);
     });
 });
